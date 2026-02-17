@@ -1,0 +1,9 @@
+string = input()
+cost = 0
+
+for i in string:
+    cost = cost + 60
+
+r = cost // 100
+c = cost % 100
+print(r, "р.", c, "коп.")
